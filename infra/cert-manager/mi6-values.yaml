@@ -2,5 +2,5 @@ crds:
   enabled: true
 
 extraArgs:
-  - "--enable-gateway-api"
+  - --enable-gateway-api
 
