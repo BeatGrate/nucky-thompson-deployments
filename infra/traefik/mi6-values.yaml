@@ -3,9 +3,11 @@ providers:
     enabled: true
 gateway:
   enabled: true
+  annotations:
+    cert-manager.io/issuer: selfsigned-issuer
   listeners:
     websecure:
-      hostname: "*.mi6.com"
+      hostname: "mi6.com"
       port: 8443
       protocol: HTTPS
       certificateRefs:
