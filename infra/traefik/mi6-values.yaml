@@ -1,5 +1,0 @@
-providers:
-  kubernetesGateway:
-    enabled: true
-gateway:
-  namespacePolicy: All
